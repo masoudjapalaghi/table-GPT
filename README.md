@@ -1,3 +1,6 @@
+
+<pre>
+
 import React, { useState, useEffect } from 'react';
 
 interface Column {
@@ -117,3 +120,5 @@ const Table: React.FC<TableProps> = ({ url, columns, pageSize = 10 }) => {
 };
 
 export default Table;
+
+</pre>
